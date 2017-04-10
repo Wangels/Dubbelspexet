@@ -1,23 +1,35 @@
-<nav class="navbar navbar-inverse navbar-fixed-top menuBar">
+<div class="container">
+<div class="col-md-12">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <img src="/photos/header.jpg" style="width:90%;">
+    </div>
+    <div class="col-md-4"></div>
+</div>
+</div>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom menuBar">
   <div class="container">
-    <ul class="nav navbar-nav menuBarNav">
-       <li class="{{isActive('/home')}}"> <a ng-href="#/home">
-        <span class="glyphicon glyphicon-info-sign menuIcon"></span><br>Time Tracker</a>
+    <div class="col-md-12">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <ul class="nav navbar-nav">
+         <li class="{{isActive('/home')}}"> <a ng-href="#/home">
+          <span class="glyphicon glyphicon-info-sign menuIcon"></span><br>Hem</a>
+          </li>
+        <li class="{{isActive('/add')}}"><a ng-href="#/add">
+        	<span class='glyphicon glyphicon-plus-sign menuIcon'></span><br>Kontakt</a>
         </li>
-      <li class="{{isActive('/add')}}"><a ng-href="#/add">
-      	<span class='glyphicon glyphicon-plus-sign menuIcon'></span><br>Add event</a>
-      </li>
-      <li class="{{isActive('/statistics')}}"><a ng-href="#/statistics">
-      	<span class='glyphicon glyphicon-stats menuIcon'></span><br>Statistics</a>
-      </li>
-      <li class="{{isActive('/calendar')}}"><a ng-href="#/calendar">
-      	<span class='glyphicon glyphicon-calendar menuIcon'></span><br>Calendar</a>
-      </li> 
-      <li class="{{isActive('/settings')}}"><a ng-href="#/settings">
-      	<span class='glyphicon glyphicon-cog menuIcon'></span><br>Settings</a>
-      </li>
-    </ul>
+        <li class="{{isActive('/statistics')}}"><a ng-href="#/statistics">
+        	<span class='glyphicon glyphicon-stats menuIcon'></span><br>Biljetter</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4"></div>
   </div>
 </nav>
+
+
 
 
