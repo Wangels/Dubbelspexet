@@ -1,0 +1,29 @@
+{
+  "name": "dubbelspexet",
+  "description": "En hemsida till Dubbelspexet",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Wangels/Dubbelspexet",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "1.3.x",
+    "angular-mocks": "1.3.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "angular-route": "1.3.x",
+    "angular-resource": "1.3.x",
+    "angular-animate": "1.3.x",
+    "angular-cookies": "1.3.x",
+    "humanize-duration": "3.7.0",
+    "momentjs": "2.9.0",
+    "angular-timer": "1.3.x",
+    "firebase": "2.2.x",
+    "angularfire": "1.2.x",
+    "highcharts": "4.2.3",
+    "fullcalendar": "2.6.1",
+    "angular-perfect-scrollbar": "^0.0.4"
+  },
+  "resolutions": {
+    "humanize-duration": "3.7.0"
+  }
+}
